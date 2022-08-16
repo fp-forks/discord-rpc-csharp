@@ -1,12 +1,6 @@
 {
   "sitemap": {
-    "fileOptions": {
-      "api/*": {
-        "changefreq": "daily"
-      }
-    },
-    "baseUrl": "https://lachee.github.io/discord-rpc-csharp/docs/",
-    "changefreq": "yearly"
+    "baseUrl": "https://lachee.github.io/discord-rpc-csharp/"
   },
   "homepages": [],
   "source_base_path": "D:/a/discord-rpc-csharp/discord-rpc-csharp/Docfx",
@@ -27,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting_started/monogame.html",
-          "hash": "O0M0Q2L2hxAeO7IhIwTcIlGxLJqRkrlpmdb1igNJyOM="
+          "hash": "RyQqDSX6pF4rxhcDtlae2tVKUwhyhJVJnye56aHvDbU="
         }
       },
       "is_incremental": false,
@@ -39,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting_started/standard.html",
-          "hash": "OWIo8kTc07h2wc3H38Wq6+zsOrwhiApN03gjowq2XIU="
+          "hash": "dTZBfhQoWdZC1St4tr1t7XBK23UBFZEQU141sFUcwxE="
         }
       },
       "is_incremental": false,
@@ -51,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/getting_started/unity3d.html",
-          "hash": "gzYOX8gEPP2NGLi0ijrjcu/gxQeBaabE84kzW+A2ZwM="
+          "hash": "xXKvxuT1mlXmyWMMJNKVccdi+wX2sTTh/9gXajxeMPk="
         }
       },
       "is_incremental": false,
@@ -63,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "64uxIQcM4K/J9XMvon/xW/xBd0k8f4u/NTj4AP482eU="
+          "hash": "9UTCHGKm/Hvz/uGZQNU9i6dT8rMpqQWtJetouUbliQw="
         }
       },
       "is_incremental": false,
@@ -75,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/join_spectate/intro.html",
-          "hash": "h+9f0+XtwwbvO2P4ECYLiyVFmIT5V+mThNp1MH1CFNI="
+          "hash": "mg4SuYZfqX+SMDkR3OR5xN4J8JPRHUD+gcBBrttwKgo="
         }
       },
       "is_incremental": false,
@@ -87,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/join_spectate/join.html",
-          "hash": "8qbTUwIRGFKYGqP7w/dNFOWbFFEfebQoFv689iDSogI="
+          "hash": "A4+ojKJT3YVcwCxGuUsib55R05jNJHT+Hh3jPjUH6Ls="
         }
       },
       "is_incremental": false,
@@ -99,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/join_spectate/join_requests.html",
-          "hash": "L24N1Qkdishl3Ewi3uFbiazchNw0otba1QmBCxKy7bA="
+          "hash": "vpKPJSLC0+ddmcZXItnjJn8QMc55u4OXChCl6foYvrQ="
         }
       },
       "is_incremental": false,
@@ -111,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/join_spectate/spectate.html",
-          "hash": "Ii7KroR8mBuL20ttWP7MTnHpzbTKUKUcYkKuD/tGvIE="
+          "hash": "IfTl0zKPM7b9kSO26EWW8svYVTiUW6Yd+/gQHiJmLPA="
         }
       },
       "is_incremental": false,
@@ -123,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/rich_presence/guidelines.html",
-          "hash": "6iRfG/5lJopaeZNBALuajT6lRV8eXylfR709B9vB3PU="
+          "hash": "fd8PX07E93NaBnJKabQpHVQYzEpzuUKyfTqzaZ4hGMA="
         }
       },
       "is_incremental": false,
@@ -135,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/rich_presence/intro.html",
-          "hash": "1Nyz9vHvhZ+aZK9e6CYSFT7YBCPlF+Xw7lwnDllqxIc="
+          "hash": "mvp+znUuIhYhl9WP24xE9B3pidIt+eNtC2tEtcnG2iU="
         }
       },
       "is_incremental": false,
@@ -154,126 +148,24 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "images/unity_add_marked.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_add_marked.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_add_unmarked.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_add_unmarked.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_entire_add.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_entire_add.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_import-large.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_import-large.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_inspector_hierarchy.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_inspector_hierarchy.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_netconvert.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_netconvert.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_package.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_package.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_project.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_project.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/unity_project_short.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/unity_project_short.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "L/tXNfZTqYaAzLIQ1fspeU7wDU9RQHrLwBxIeGnnQdM="
+          "hash": "vVtScN5m2Z1Us0RdjF26IFObTu0DgfK6E6Luq6kWG+4="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "87EnyT3OcpB0t7UBNoLIdISI0d5R55C1ixsfYUHT28s="
+          "hash": "iiY4284/kFQi2jHgWev0TrFCJzkzpknmAJgOJhOdcOQ="
         }
       },
       "is_incremental": false,
@@ -295,13 +187,6 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 11,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
