@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.Assets.html",
-          "hash": "3x/2innArjT8Wd9NXA+oohddVVcNFu6fvEpgN6vMUSU="
+          "hash": "Px7XyUWNDwbRcbD5yKs0Z1cXmjHg6AFikhChLLV4Iig="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.Button.html",
-          "hash": "+I9vzyNaVD9EgCdRpoJ6lj3kYo+ZO8vLEt7rqn+h6X8="
+          "hash": "5+a8LQZ5ZKKebz8SsAIx0f5V35hmu3+CJ0SQTshIu7k="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.Configuration.html",
-          "hash": "0iBAXnZQKnhL6EaKnGkmhxUPZf/RIX1xDyZ1e4pOA/Y="
+          "hash": "WufMopqsZgs67ZuKFEh8z3Pf8Ualo/AvgGRHl3u34Og="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.IO.ManagedNamedPipeClient.html",
-          "hash": "fK1tpLv5AzCRZEhYyCl1KhpuS+5r0dJik9KtTnCCtk4="
+          "hash": "DZgFTdQWAsfpSn5dvIKdnxY0sR3E4y8e7asoXbQx1YI="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.Party.PrivacySetting.html",
-          "hash": "JHs/qRzoOGBmM+quxq+4vBbu/uAyHa2PRmVqTJySe3c="
+          "hash": "erOEJQFzZikq1IH/tUfhMgukTALyTjHxnE39CVVCnmk="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.Party.html",
-          "hash": "Ubv6rsEt6qUwiUTXd05GMibk/Qzg82BjC2Ro99xnuUk="
+          "hash": "3vDvHc3BGc2GvN+fQOguOSIWqgffN26/u4Ja8Px+kyY="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.RichPresence.html",
-          "hash": "RUl3fyqfZjSbhD0QEinbsoDKHT6YMGUkA+OOUYUOx3E="
+          "hash": "d+dcCv9ZIxrPSTkNR0RXiJLGKioLuE3Fx9QR24Xp8Oc="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.Timestamps.html",
-          "hash": "l2jIsA6iqXNTwYt0CpE40zCweLsJ8R+Ug5t+7TAFK84="
+          "hash": "vdoupgTB4VXBLCYpRKFfYwxAbglfjpFqWWM662nJYEA="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.User.Flag.html",
-          "hash": "EaSLrxH9Ko8ZOin5KsoJsTwyCXqwakbkAQAsJI60frs="
+          "hash": "TqM239a5/AACVcDTmCjtFi25LUqFlBPTIeLlGDzGtRc="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.User.PremiumType.html",
-          "hash": "afyOECnIA7tuxnh09vApUwtO8iTk7giawX1lN992aqY="
+          "hash": "Oh4afYE2kVCglsUg/2fGPvhbtuhqUI82RQ0FNoo7z2s="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DiscordRPC.User.html",
-          "hash": "ydK4JidZI1kNQne6iFJ6ha6Ioe2aDXwflmj68fDIjtM="
+          "hash": "gaz2mOBfBK4ja0XKhZ033mr7aXTverbu+UP8CMiHLbA="
         }
       },
       "is_incremental": false,
