@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Enum StatusDisplayType | Discord RPC C# </title>
+      <title>Buttons | Discord RPC C# </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Enum StatusDisplayType | Discord RPC C# ">
-      
-      <meta name="description" content="Rich Presence Display type">
-      <link rel="icon" href="../favicon.ico">
-      <link rel="stylesheet" href="../public/docfx.min.css">
-      <link rel="stylesheet" href="../public/main.css">
-      <meta name="docfx:navrel" content="../toc.html">
-      <meta name="docfx:tocrel" content="toc.html">
-      
-      <meta name="docfx:rel" content="../">
+      <meta name="title" content="Buttons | Discord RPC C# ">
       
       
-      <meta name="docfx:docurl" content="https://github.com/fp-forks/discord-rpc-csharp/new/master/apiSpec/new?filename=DiscordRPC_StatusDisplayType.md&amp;value=---%0Auid%3A%20DiscordRPC.StatusDisplayType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <link rel="icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../public/main.css">
+      <meta name="docfx:navrel" content="../../toc.html">
+      <meta name="docfx:tocrel" content="../toc.html">
+      
+      <meta name="docfx:rel" content="../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fp-forks/discord-rpc-csharp/blob/master/Docfx/articles/features/buttons.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../public/docfx.min.js"></script>
+      <script type="module" src="./../../public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -39,12 +39,12 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../index.html">
-            <img id="logo" class="svg" src="../logo.svg" alt="">
+          <a class="navbar-brand" href="../../index.html">
+            <img id="logo" class="svg" src="../../logo.svg" alt="">
             
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,61 +84,38 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="DiscordRPC.StatusDisplayType">
+        <article data-uid="">
+<h1 id="buttons">Buttons</h1>
 
-
-
-
-  <h1 id="DiscordRPC_StatusDisplayType" data-uid="DiscordRPC.StatusDisplayType" class="text-break">
-Enum StatusDisplayType  <a class="header-action link-secondary" title="View source" href="https://github.com/fp-forks/discord-rpc-csharp/blob/master/DiscordRPC/RichPresence.cs/#L939"><i class="bi bi-code-slash"></i></a>
-  </h1>
-
-  <div class="facts text-secondary">
-    <dl><dt>Namespace</dt><dd><a class="xref" href="DiscordRPC.html">DiscordRPC</a></dd></dl>
-  <dl><dt>Assembly</dt><dd>DiscordRPC.dll</dd></dl>
-  </div>
-
-  <div class="markdown summary"><p>Rich Presence Display type</p>
+<p>Everyone's favourite, buttons! Buttons allow you to display clickable links inside your presence. They take an external URL and will redirect the user to it on visit.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You are able to display <strong>2</strong> buttons at once as part of your presence.</p>
 </div>
-  <div class="markdown conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum StatusDisplayType</code></pre>
-  </div>
-
-
-
-
-
-
-
-
-
-  <h2 id="fields">Fields
-</h2>
-  <dl class="parameters">
-    <dt id="DiscordRPC_StatusDisplayType_Details"><code>Details = 2</code></dt>
-  
-  <dd><p>Displays the rich presence details &quot;Listening to Never Gonna Give You Up&quot;</p>
-</dd>
-    <dt id="DiscordRPC_StatusDisplayType_Name"><code>Name = 0</code></dt>
-  
-  <dd><p>Displays the rich presence name &quot;Listening to Spotify&quot;</p>
-</dd>
-    <dt id="DiscordRPC_StatusDisplayType_State"><code>State = 1</code></dt>
-  
-  <dd><p>Displays the rich presence state &quot;Listening to Rick Astley&quot;</p>
-</dd>
-  </dl>
-
-
+<div class="WARNING">
+<h5>Warning</h5>
+<p>You are unable to view buttons or click on them for your own activity. Only other users can see and click on the buttons.</p>
+</div>
+<img src="https://i.lu.je/2025/Discord_QSPFYPuoHT.png" style="width: 35%; float: left">
+<pre><code class="lang-cs">client.SetPresence(new RichPresence()
+{
+    Details = &quot;A Basic Example&quot;,
+    State = &quot;In Game&quot;,
+    Buttons = new Button[]
+    {
+        new Button() { Label = &quot;Fish&quot;, Url = &quot;https://lachee.dev/&quot; },
+        new Button() { Label = &quot;Sticks&quot;, Url = &quot;https://en.wikipedia.org/wiki/Stick&quot; }
+	}
+});
+</code></pre>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/fp-forks/discord-rpc-csharp/blob/master/DiscordRPC/RichPresence.cs/#L939" class="edit-link">Edit this page</a>
+          <a href="https://github.com/fp-forks/discord-rpc-csharp/blob/master/Docfx/articles/features/buttons.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
 
       </div>
 
