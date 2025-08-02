@@ -14,6 +14,56 @@
       }
     },
     {
+      "type": "Resource",
+      "source_relative_path": "Resources/Example Client.txt",
+      "output": {
+        "resource": {
+          "relative_path": "Resources/Example Client.txt"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Resources/Legend.png",
+      "output": {
+        "resource": {
+          "relative_path": "Resources/Legend.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Resources/logo-small.png",
+      "output": {
+        "resource": {
+          "relative_path": "Resources/logo-small.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Resources/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "Resources/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Resources/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "Resources/logo.svg"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "api/DiscordRPC.ActivityType.yml",
       "output": {
@@ -980,6 +1030,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/features/assets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/features/avatars.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/features/avatars.html"
         }
       },
       "version": ""
