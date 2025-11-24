@@ -50,6 +50,23 @@ namespace DiscordRPC
         }
         /// <summary>Inernal inner state URL string</summary>
         protected internal string _stateUrl;
+        
+        /// <summary>
+        /// Name that is displayed for the activity, replacing base application name
+        /// <para>Max 256 characters</para>
+        /// </summary>
+        [JsonProperty("name", NullValueHandling = NullValueHandling.Ignore)]
+        public string Name
+        {
+            get { return _name; }
+            set
+            {
+                if (!ValidateString(value, out _name, false, 256))
+                    throw new StringOutOfRangeException(256);
+            }
+        }
+        /// <summary>Name string</summary>
+        protected internal string _name;
 
         /// <summary>
         /// What the user is currently doing. For example, "Competitive - Total Mayhem".
@@ -233,6 +250,7 @@ namespace DiscordRPC
             if (State != other.State ||
                 StateUrl != other.StateUrl ||
                 Details != other.Details ||
+                Name != other.Name ||
                 DetailsUrl != other.DetailsUrl ||
                 Type != other.Type)
                 return false;
@@ -308,6 +326,7 @@ namespace DiscordRPC
         {
             var presence = new RichPresence();
             presence.State = State;
+            presence.Name = Name;
             presence.StateUrl = StateUrl;
             presence.Details = Details;
             presence.DetailsUrl = DetailsUrl;
@@ -385,6 +404,17 @@ namespace DiscordRPC
         public RichPresence WithStateUrl(string stateUrl)
         {
             StateUrl = stateUrl;
+            return this;
+        }
+        
+        /// <summary>
+        /// Sets the name of the Rich Presence. See also <seealso cref="BaseRichPresence.Name"/>.
+        /// </summary>
+        /// <param name="name">Name of the current activity, overwrites base app name.</param>
+        /// <returns>The modified Rich Presence.</returns>
+        public RichPresence WithName(string name)
+        {
+            Name = name;
             return this;
         }
 
@@ -512,6 +542,7 @@ namespace DiscordRPC
             return new RichPresence
             {
                 State = this._state != null ? _state.Clone() as string : null,
+                Name = this._name != null ? _name.Clone() as string : null,
                 StateUrl = this._stateUrl != null ? _stateUrl.Clone() as string : null,
                 Details = this._details != null ? _details.Clone() as string : null,
                 DetailsUrl = this._detailsUrl != null ? _detailsUrl.Clone() as string : null,
@@ -562,6 +593,7 @@ namespace DiscordRPC
         internal RichPresence Merge(BaseRichPresence presence)
         {
             this._state = presence.State;
+            this._name = presence.Name;
             this._stateUrl = presence.StateUrl;
             this._details = presence.Details;
             this._detailsUrl = presence.DetailsUrl;
