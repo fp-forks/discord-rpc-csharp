@@ -65,7 +65,7 @@ namespace DiscordRPC
                     throw new StringOutOfRangeException(256);
             }
         }
-        /// <summary>Inernal inner state URL string</summary>
+        /// <summary>Name string</summary>
         protected internal string _name;
 
         /// <summary>
@@ -408,7 +408,7 @@ namespace DiscordRPC
         }
         
         /// <summary>
-        /// Sets the details of the Rich Presence. See also <seealso cref="BaseRichPresence.Details"/>.
+        /// Sets the name of the Rich Presence. See also <seealso cref="BaseRichPresence.Name"/>.
         /// </summary>
         /// <param name="name">Name of the current activity, overwrites base app name.</param>
         /// <returns>The modified Rich Presence.</returns>
