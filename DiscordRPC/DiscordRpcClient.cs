@@ -571,6 +571,13 @@ namespace DiscordRPC
         public RichPresence UpdateState(string state) => Update(p => p.State = state);
 
         /// <summary>
+        /// Updates only the <see cref="BaseRichPresence.Name"/> of the <see cref="CurrentPresence"/> and sends the updated presence to Discord. Returns the newly edited Rich Presence.
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns>Updated Rich Presence</returns>
+        public RichPresence UpdateName(string name) => Update(p => p.Name = name);
+
+        /// <summary>
         /// Updates only the <see cref="BaseRichPresence.Party"/> of the <see cref="CurrentPresence"/> and sends the updated presence to Discord. Returns the newly edited Rich Presence.
         /// </summary>
         /// <param name="party">The party of the Rich Presence</param>
